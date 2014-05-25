@@ -1,27 +1,26 @@
-X_train <- The variable to hold the x_train data 
+## Course project CodeBook.
+===========================
 
+### Object definitiion
+Definitions of some important objects.
 
-X_test <-  The table variable to hold the x_test data
+No  | Object Name | Object Definition
+--- | --- | ---
+1  | X_train | Object which reads the data from the X_train file
+2  | X_test | Object which reads the data from the X_test file
+3  | subject_train | Object which reads the data from the subject_train file
+4  | subject_test | Object which reads the data from the subject_test file
+5  | y_test | Object which reads the data from the y_test file
+6  | features | Object which reads the data from the features file
+7  | activities | Object which reads the data from the activities_table file
+8  | x_table | Object containing the row binded data from X_train and X_test
+9  | subject | Object containing the row binded data from subject_train and subject_test
+10  | y_table | Object containing the row binded data from y_train and y_test
+11  | indices_of_good_features | Holds the mean and standard deviation data from the features column 
+11  | tidyData |  One data set which contains the training and the test sets. 
+11  | result | Independent tidy data set with the average of each variable for each activity and each subject.  
 
+### Data generated
+* [TidyData.txt](TidyData.txt) contains the merged data set with the mean and standard deviation values.
+* [dataSetContainingaverages.txt](dataSetContainingaverages.txt) contains the written into by the result object.
 
-subject_train <- The table variable to hold the subject_train data
-
-
-subject_test <- The table variable to hold the subject_test data
-
-
-y_train <- The table variable to hold the y_train data
-
-
-y_test <- The table variable to hold the y_test data
-
-x_table <- merged dataset of X_train and X_test
-
-
-subject <- merged dataset of subject_train and subject_test
-
-
-y_table <- merged dataset of y_train and y_test 
-
-
-features <- The table variable to hold the features data
