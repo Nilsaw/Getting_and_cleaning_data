@@ -1,12 +1,13 @@
-Getting_and_cleaning_data
+## Course project readme.
 =========================
 
-Course 3 peer-review project
+### Data setup
+* Download the data from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip ).
+* Rename the folder called 'UCI HAR Dataset' to 'UCI_HAR_Dataset' and save it in the R working directory.
+ 
+### Code setup
+* Clone the R script called run_analysis.R in the local R working directory from [here](https://github.com/Nilsaw/Getting_and_cleaning_data.git).
+* Run : source("run_analysis.R") in your local RStudio command line.
 
-#Unzip the data in the R working directory.
-
-#Clone the R script in the local R working directory. URL https://github.com/Nilsaw/Getting_and_cleaning_data.git
-
-#Run : source("run_analysis.R") in your local RStudio command line.
-
-#Two files named dataSetContainingaverages.txt and TidyData.txt will get created in the local working directory,
+### Generted Data
+* Two files named dataSetContainingaverages.txt and TidyData.txt will get created in the local working directory,
